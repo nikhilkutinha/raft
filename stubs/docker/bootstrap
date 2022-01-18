@@ -14,7 +14,7 @@ then
   exit 1
 fi
 
-docker run -it \
+docker run -i \
     --rm \
     -u node \
     -v "$(pwd)":/opt \
